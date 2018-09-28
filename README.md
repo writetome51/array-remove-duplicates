@@ -1,0 +1,1 @@
+A function that removes any duplicate items in the array
