@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var getAndRemoveDuplicates_1 = require("@writetome51/array-get-and-removers-filtered-results-duplicates/getAndRemoveDuplicates");
+var array_get_and_remove_duplicates_1 = require("@writetome51/array-get-and-remove-duplicates");
 // Remaining items in array may be out of order.
 function removeDuplicates(array) {
-    getAndRemoveDuplicates_1.getAndRemoveDuplicates(array);
+    array_get_and_remove_duplicates_1.getAndRemoveDuplicates(array);
 }
 exports.removeDuplicates = removeDuplicates;

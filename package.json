@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/array-remove-duplicates",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a function that removes any duplicate items in the array",
   "main": "",
   "scripts": {
@@ -13,8 +13,10 @@
   ],
   "author": "Steve Thompson",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "@writetome51/arrays-match": "latest"
+  },
   "dependencies": {
-    "@writetome51/array-get-and-removers-filtered-results-duplicates": "latest"
+    "@writetome51/array-get-and-remove-duplicates": "latest"
   }
 }

@@ -1,5 +1,5 @@
 import { getAndRemoveDuplicates } 
-	from '@writetome51/array-get-and-removers-filtered-results-duplicates/getAndRemoveDuplicates';
+	from '@writetome51/array-get-and-remove-duplicates';
 
 
 // Remaining items in array may be out of order.
