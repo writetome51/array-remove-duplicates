@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/array-remove-duplicates.git"
+  },
   "keywords": [
     "array",
     "remove",
@@ -13,6 +17,10 @@
   ],
   "author": "Steve Thompson",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/writetome51/array-remove-duplicates/issues"
+  },
+  "homepage": "https://github.com/writetome51/array-remove-duplicates#readme",
   "devDependencies": {
     "@writetome51/arrays-match": "latest"
   },
