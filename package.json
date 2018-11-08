@@ -1,8 +1,8 @@
 {
   "name": "@writetome51/array-remove-duplicates",
   "version": "1.0.1",
-  "description": "a function that removes any duplicate items in the array",
-  "main": "",
+  "description": "Function removes any duplicate items in an array",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +13,9 @@
   "keywords": [
     "array",
     "remove",
-    "duplicates"
+    "duplicates",
+    "extra",
+    "items"
   ],
   "author": "Steve Thompson",
   "license": "MIT",
@@ -22,9 +24,9 @@
   },
   "homepage": "https://github.com/writetome51/array-remove-duplicates#readme",
   "devDependencies": {
-    "@writetome51/arrays-match": "latest"
+    "@writetome51/arrays-match": "1.0.2"
   },
   "dependencies": {
-    "@writetome51/array-get-and-remove-duplicates": "latest"
+    "@writetome51/array-get-and-remove-duplicates": "1.0.3"
   }
 }
