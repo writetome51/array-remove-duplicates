@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/array-remove-duplicates",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Function removes any duplicate items in an array",
   "main": "index.js",
   "scripts": {
