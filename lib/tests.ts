@@ -1,4 +1,4 @@
-import { removeDuplicates } from './removeDuplicates';
+import { removeDuplicates } from './index';
 import { arraysMatch } from '@writetome51/arrays-match';
 
 
