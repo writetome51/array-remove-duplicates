@@ -3,10 +3,8 @@ import { arraysMatch } from '@writetome51/arrays-match';
 let arr = [1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6];
 // Test 1
 removeDuplicates(arr);
-if (arraysMatch(arr, [1, 2, 3, 4, 5, 6]))
-    console.log('test 1 passed');
-else
-    console.log('test 1 FAILED');
+if (arraysMatch(arr, [1, 2, 3, 4, 5, 6])) console.log('test 1 passed');
+else console.log('test 1 FAILED');
 
 
 // Test 2
@@ -19,10 +17,8 @@ else console.log('test 2 FAILED');
 // Test 3
 arr = [true, false, true, false];
 removeDuplicates(arr);
-if (arraysMatch(arr, [true, false]))
-    console.log('test 3 passed');
-else
-    console.log('test 3 FAILED');
+if (arraysMatch(arr, [true, false])) console.log('test 3 passed');
+else console.log('test 3 FAILED');
 
 
 // Test 4
@@ -60,3 +56,4 @@ arr = [obj1, obj2, [obj1], [obj2]];
 removeDuplicates(arr);
 if (arraysMatch(arr, [obj1, [obj1]])) console.log('test 6 passed');
 else console.log('test 6 FAILED');
+
