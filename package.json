@@ -1,7 +1,8 @@
 {
   "name": "@writetome51/array-remove-duplicates",
-  "version": "1.1.2",
+  "version": "2.0.0",
   "description": "Function removes any duplicate items in an array",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -26,9 +27,10 @@
   },
   "homepage": "https://github.com/writetome51/array-remove-duplicates#readme",
   "devDependencies": {
-    "@writetome51/arrays-match": "~1.0.5"
+    "@writetome51/arrays-match": "^2.0.0"
   },
   "dependencies": {
-    "@writetome51/array-get-and-remove-duplicates": "~1.0.5"
+    "@writetome51/array-get-unique-items": "^2.0.0",
+    "@writetome51/set-array": "^2.0.0"
   }
 }

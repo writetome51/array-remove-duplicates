@@ -1,10 +1,9 @@
 # removeDuplicates(array): void
 
-Removes any extra instances of unique items in `array`.  
-NOTICE:  The function will error if `array` contains objects.  It can contain arrays. 
+Removes any extra instances of each item in `array`.
  
 ## Examples
-```
+```js
 let arr = [1, 2, 3, 4, 1, 2, 3, 4, 5];  
 removeDuplicates(arr);  
 // arr is now [1,2,3,4,5]
@@ -22,9 +21,6 @@ removeDuplicates(arr);
 
 
 ## Loading
-```
-// if using TypeScript:
+```js
 import {removeDuplicates} from '@writetome51/array-remove-duplicates';
-// if using ES5 JavaScript:
-var removeDuplicates = require('@writetome51/array-remove-duplicates').removeDuplicates;
 ```

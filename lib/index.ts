@@ -1,6 +1,8 @@
-import { getAndRemoveDuplicates } from '@writetome51/array-get-and-remove-duplicates';
+import { getUniqueItems } from '@writetome51/array-get-unique-items';
+import { setArray } from '@writetome51/set-array';
 
 
 export function removeDuplicates(array): void {
-	getAndRemoveDuplicates(array);
+	let uniqueItems = getUniqueItems(array);
+	setArray(array, uniqueItems);
 }
